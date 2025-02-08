@@ -1,0 +1,3 @@
+# Python Bug: ZeroDivisionError despite a check
+
+This repository demonstrates a subtle bug in Python where a ZeroDivisionError can occur even when there's an apparent check to prevent it. The issue arises from the order of operations; the division is performed before the conditional check, causing the exception when x is zero. The solution corrects this by restructuring the conditional statement to prevent the division when x is zero. 
